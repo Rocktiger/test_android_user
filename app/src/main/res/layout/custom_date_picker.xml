@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_parent_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:layout_above="@+id/rl_parent_view"
+        >
+
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_343434"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="完成"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <user.test.com.test_android_user.widget.DatePickerView
+                android:id="@+id/year_pv"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_weight="1"/>
+
+            <user.test.com.test_android_user.widget.DatePickerView
+                android:id="@+id/month_pv"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

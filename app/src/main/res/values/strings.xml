@@ -1,3 +1,70 @@
 <resources>
     <string name="app_name">test_android_user</string>
+    <string name="cp_locating">正在定位…</string>
+    <string name="cp_located_failed">定位失败</string>
+
+
+    <!--common_title-->
+    <string name="title_order_detail">订单详情</string>
+
+    <string name="common_enter">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_delete_ask">确定删除?</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+
+
+    <string name="empty_tip">暂无数据</string>
+    <string name="no_network_tip">没有网络</string>
+    <string name="error_tip">加载失败</string>
+    <string name="time_out_tip">加载超时</string>
+    <string name="no_login_tip">你还没有登录</string>
+    <string name="btn_login">登录</string>
+    <string name="retry_tip">轻触屏幕重试</string>
+
+    <string name="cp_select_city">选择城市</string>
+    <string name="cp_hint_search_box">请输入城市名或拼音</string>
+    <string name="cp_nothing_found">没有搜索结果~</string>
+
+    <!-- 城市选择 -->
+    <string name="city_select_up">起点</string>
+    <string name="city_select_drop">目的地</string>
+    <string name="city_select_terminal">选择航站楼</string>
+    <string name="city_no_service">该地区暂未开通服务</string>
+
+
+    <!--选择乘车人-->
+    <string name="passenger_select_head">订车成功后，我们将会短信通知到乘车人</string>
+    <string name="passenger_select_addressbook">从通讯录添加 +</string>
+    <string name="passenger_select_latestriding">最近乘车人</string>
+    <string name="choosePhone">选择电话号码</string>
+    <string name="permissions_read_contacts">您的应用已被禁止使用读取联系人权限，请到 设置->应用权限 中开启</string>
+    <string name="permissions_location">开启定位后可看到附近车辆信息\n快去设置吧</string>
+
+    <!--专车车型选泽-->
+    <string name="country_car_notice_default">专车应答更快捷，低价享受舒适出行</string>
+
+
+    <string name="pay_error_qq_noclient">请先安装QQ客户端</string>
+    <string name="input_number">%s/50</string>
+
+    <!--举牌页面-->
+    <string name="raise_name_is_empty">"为确保接到客人，接机牌信息中姓名必填"</string>
+
+    <!--评价页面-->
+    <string name="evaluate_driver">评价司机</string>
+
+    <string name="invite_title">邀请好友，打车领券</string>
+    <string name="common_complaint">投诉</string>
+
+    <string name="cancel_order">取消订单</string>
+    <string name="go_on_call">继续呼叫</string>
+
+
 </resources>

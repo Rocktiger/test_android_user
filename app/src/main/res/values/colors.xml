@@ -3,6 +3,107 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="color_343434">#343434</color>
     <color name="color_white">#ffffff</color>
+
+
+    <!--通用字色-->
+
+    <color name="common_bg_head">#383f54</color>
+    <color name="gray_deep">#b3b6ba</color>
+    <color name="common_bg_spit">@color/gray_deep</color>
+    <color name="text_gray">#676970</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+
+
+    <color name="bg_white">#ffffff</color>
+    <color name="tip_color">#6C6C6C</color>
+
+    <color name="retry_color">#C0C0C0</color>
+
+    <color name="cp_divider">#E5E5E5</color>
+    <color name="cp_shadow">#AAEBEBEB</color>
+    <color name="cp_common_bg">#FAFAFA</color>
+    <color name="cp_content_bg">#f0f0f0</color>
+    <color name="cp_gray">#8c8c8c</color>
+    <color name="cp_gray_deep">#5c5c5c</color>
+    <color name="cp_alpha_gray">#CC646464</color>
+    <color name="cp_theme_gray">#646464</color>
+
+    <color name="color_343434">#343434</color>
+    <color name="color_010101">#010101</color>
+    <color name="color_2B2B2B">#2B2B2B</color>
+    <color name="color_383838">#383838</color>
+    <color name="color_CDCED3">#CDCED3</color>
+    <color name="color_00BAF2">#00BAF2</color>
+    <color name="color_9B9B9B">#9B9B9B</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_2C2C2C">#2C2C2C</color>
+    <color name="color_484848">#484848</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+    <color name="color_929292">#929292</color>
+    <color name="color_BBBBBB">#BBBBBB</color>
+    <color name="color_3CB7EF">#3CB7EF</color>
+    <color name="color_0098C5">#0098C5</color>
+    <color name="color_81CFE8">#81CFE8</color>
+    <color name="color_E5E6EC">#E5E6EC</color>
+    <color name="color_FF9900">#FF9900</color>
+    <color name="color_FF9400">#FF9400</color>
+    <color name="color_00B699">#00B699</color>
+    <color name="color_a0a0a8">#a0a0a8</color>
+    <color name="color_ffc1c1c7">#ffc1c1c7</color>
+    <color name="color_ECCE98">#ECCE98</color>
+    <color name="color_252621">#252621</color>
+    <color name="color_FDEEC5">#FDEEC5</color>
+    <color name="color_F3DFB1">#F3DFB1</color>
+    <color name="color_756338">#756338</color>
+    <color name="color_454545">#454545</color>
+    <color name="color_454645">#454645</color>
+    <color name="color_9A9B9F">#9A9B9F</color>
+    <color name="color_00B8E3">#00B8E3</color>
+    <color name="color_8F908F">#8F908F</color>
+    <color name="color_595A60">#595A60</color>
+    <color name="color_FF8400">#FF8400</color>
+    <color name="color_4A90E2">#4A90E2</color>
+    <color name="color_07B9D2">#07B9D2</color>
+    <color name="et_line_choosed">#00ABE2</color>
+    <color name="et_line_unchoose">#E5E5E5</color>
+    <color name="et_text">#373737</color>
+    <color name="transparent">#ffffff</color>
+    <color name="black">#000000</color>
+    <!-- 浅灰色 -->
+    <color name="french_gray">#fafafc</color>
+    <color name="orange_new">#ff7d44</color>
+    <color name="grey">#cccccc</color>
+    <!-- 暗灰色 -->
+    <color name="gray">#808080</color>
+    <color name="blue_light">#31B5E6</color>
+    <!-- 50%透明 -->
+    <color name="transparent_50">#50000000</color>
+
+
+    <!--SwitchButton-->
+    <color name="header_right_text">#00BAF2</color>
+
+    <color name="develop_blackDark">#333333</color>
+    <color name="develop_grey">#999999</color>
+
+    <!--lable边框通用颜色-->
+    <color name="lable_check_true">#31B5E6</color>
+    <color name="lable_check_flase">#B4B4B4</color>
+
+    <!--航班信息-->
+    <color name="common_bg_spit_light">#e1e1e1</color>
+    <color name="text_color_normal">#575859</color>
+    <color name="airport_word_bg">#bdc1d3</color>
+
+
 </resources>

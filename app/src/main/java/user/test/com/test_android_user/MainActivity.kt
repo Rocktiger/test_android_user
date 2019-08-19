@@ -8,6 +8,8 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import user.test.com.test_android_user.activity.AccountFlowActivity
+import user.test.com.test_android_user.activity.CityPickerActivity
+import user.test.com.test_android_user.utils.AppContext
 import user.test.com.test_android_user.utils.IntentUtils
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +32,12 @@ class MainActivity : AppCompatActivity() {
                 gone()
             }
         }
+        city_button.setOnClickListener{view->
+            var intent = Intent()
+            intent.setClass(this, CityPickerActivity::class.java)
+            startActivity(intent)
+        }
+        AppContext.init(getApplicationContext());
 
     }
 

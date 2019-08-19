@@ -37,5 +37,18 @@ dependencies {
     //下拉刷新
     api 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
     api 'com.android.support:recyclerview-v7:27.1.1'
+    api files('libs/AMap3DMap_6.9.0_AMapSearch_6.9.0_AMapLocation_4.6.0_20190530.jar')
+    api 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+
+    //rxjava retrofit
+    api 'com.trello.rxlifecycle2:rxlifecycle:2.1.0'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0'
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    api 'io.reactivex.rxjava2:rxjava:2.1.5'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'io.reactivex:rxjava:1.1.6'
+    api 'com.squareup.retrofit2:retrofit:2.3.0'
+    api 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
     
 }

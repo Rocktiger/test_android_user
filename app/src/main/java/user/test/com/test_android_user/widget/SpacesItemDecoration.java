@@ -1,4 +1,4 @@
-package user.test.com.test_android_user;
+package user.test.com.test_android_user.widget;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

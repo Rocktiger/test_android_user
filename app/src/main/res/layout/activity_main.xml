@@ -34,6 +34,7 @@
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:visibility="gone"
         />
 
 </RelativeLayout>

@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import user.test.com.test_android_user.BaseRecycleViewAdapter;
 import user.test.com.test_android_user.R;
 import user.test.com.test_android_user.bean.AccountFlowBean;
 

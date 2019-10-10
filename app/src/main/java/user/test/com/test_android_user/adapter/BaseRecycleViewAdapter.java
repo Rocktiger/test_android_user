@@ -1,4 +1,4 @@
-package user.test.com.test_android_user;
+package user.test.com.test_android_user.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 
 import user.test.com.test_android_user.R;
-import user.test.com.test_android_user.SpacesItemDecoration;
+import user.test.com.test_android_user.widget.SpacesItemDecoration;
 import user.test.com.test_android_user.adapter.AccountFlowListAdapter;
 import user.test.com.test_android_user.bean.AccountFlowBean;
 import user.test.com.test_android_user.utils.DateUtil;

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">test_android_user</string>
+    <string name="app_name">收益计算器</string>
     <string name="cp_locating">正在定位…</string>
     <string name="cp_located_failed">定位失败</string>
 

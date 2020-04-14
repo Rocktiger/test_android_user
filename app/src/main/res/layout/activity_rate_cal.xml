@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/shouyi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_40dp"
+        android:layout_marginTop="@dimen/space_10dp"
+        android:hint="收益（元）"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/bengjin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_40dp"
+        android:layout_below="@+id/shouyi"
+        android:layout_marginTop="@dimen/space_10dp"
+        android:hint="本金（元）"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/shijian"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_40dp"
+        android:layout_below="@+id/bengjin"
+        android:layout_marginTop="@dimen/space_10dp"
+        android:hint="时间（天）"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/jisuan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_50dp"
+        android:layout_below="@+id/shijian"
+        android:layout_marginTop="@dimen/space_10dp"
+        android:text="计算" />
+
+    <TextView
+        android:id="@+id/lilv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jisuan"
+        android:layout_marginTop="@dimen/space_10dp" />
+
+</RelativeLayout>
